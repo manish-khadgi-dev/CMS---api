@@ -5,7 +5,7 @@ export const createCategory = (obj) => {
   return CategorySchema(obj).save();
 };
 
-//delete category
+//get category
 export const getCategories = () => {
   return CategorySchema.find();
 };
